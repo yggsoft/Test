@@ -50,6 +50,5 @@
 		<connection>scm:git:https://github.com/yggsoft/test</connection>
 		<developerConnection>scm:git:https://github.com/yggsoft/test</developerConnection>
 		<url>https://github.com/yggsoft/test</url>
-	  <tag>HEAD</tag>
   </scm>
 </project>
