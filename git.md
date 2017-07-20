@@ -92,3 +92,18 @@ mvn release:clean release:prepare -DupdateWorkingCopyVersions=false -DreleaseVer
 
 
 https://my.oschina.net/u/140938/blog/666695
+
+# Git Fetch
+git fetch 有四种基本用法
+1. git fetch            →→ 这将更新git remote 中所有的远程repo 所包含分支的最新commit-id, 将其记录到.git/FETCH_HEAD文件中
+2. git fetch remote_repo         →→ 这将更新名称为remote_repo 的远程repo上的所有branch的最新commit-id，将其记录。 
+3. git fetch remote_repo remote_branch_name        →→ 这将这将更新名称为remote_repo 的远程repo上的分支： remote_branch_name
+4. git fetch remote_repo remote_branch_name:local_branch_name       →→ 这将这将更新名称为remote_repo 的远程repo上的分支： remote_branch_name ，并在本地创建local_branch_name 本地分支保存远端分支的所有数据。
+FETCH_HEAD： 是一个版本链接，记录在本地的一个文件中，指向着目前已经从远程仓库取下来的分支的末端版本。
+
+# Git Remote
+本地的repo仓库要与远程的repo配合完成版本对应必须要有 git remote子命令，通过git remote add来添加当前本地长度的远程repo， 有了这个动作本地的repo就知道了当遇到git push 的时候应该往哪里提交代码。
+
+
+http://www.oschina.net/translate/10-tips-git-next-level
+http://pinkyjie.com/categories/%E5%B7%A5%E5%85%B7%E7%9B%B8%E5%85%B3/
