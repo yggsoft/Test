@@ -14,14 +14,6 @@
 2. 账户相关数据的统计。登录时间、次数；
 3. 开放账户系统，具备第三方应用支持；
 
-相关定义
-
-- 统一认证平台：橙讯应用支撑性平台，包括了统一用户、应用资源的管理以及各应用资源的统一认证管理。
-- 统一用户管理：负责橙讯全体用户的身份管理，并分配各应用子系统中具有使用权的用户，将统一用户信息同步到应用子系统中。
-- 统一认证：负责橙讯统一用户认证以及单点登录支持，用户通过平台统一登录之后可以单点登录访问其权限范围内的各分项应用子系统，单点登录需要各应用系统支持统一认证接口。
-- UIA 统一身份认证 (Unified identity authentication)
-- SSO 单点登录 (Single sign-on)
-
 ## 认证
 
 ### 用户注册
@@ -214,6 +206,14 @@
   - 防刷单防马甲防诈骗,平台业务量大起来，特别涉及金额交易的平台，那更要注意了
   - 登录注册流友好通畅，细致至每个提示，当用户是傻瓜对待，而标准是，把每个使用场景与触发事件想清楚，用户进行每个场景操作，想都不用想就知道啥意思 申诉流程足够通畅，不然密码错误了，因流程流程复杂有问题，用户就不陪你玩了（微信公众号的密码申诉流程就是很典型BUG，登录时提示该账号密码不正确，找回密码又提示该账号不存在，注册时又提示该账号已占用，啥玩意呀？）
 
+## 附录A：词汇表
+
+- 统一认证平台：橙讯应用支撑性平台，包括了统一用户、应用资源的管理以及各应用资源的统一认证管理。
+- 统一用户管理：负责橙讯全体用户的身份管理，并分配各应用子系统中具有使用权的用户，将统一用户信息同步到应用子系统中。
+- 统一认证：负责橙讯统一用户认证以及单点登录支持，用户通过平台统一登录之后可以单点登录访问其权限范围内的各分项应用子系统，单点登录需要各应用系统支持统一认证接口。
+- UIA 统一身份认证 (Unified identity authentication)
+- SSO 单点登录 (Single sign-on)
+
 --------------------------------------------------------------------------------
 
 # 用户服务管理
@@ -248,3 +248,15 @@
 <https://www.processon.com/view/58d21014e4b0d1772221fad8> <https://www.processon.com/view/58f0a240e4b0cb4162aede99> <https://www.processon.com/view/58242512e4b064c051ad31c3> <https://www.processon.com/popular?criterion=%E5%BC%80%E6%94%BE%E5%B9%B3%E5%8F%B0>
 
 <https://www.processon.com/view/584fc6eae4b07016a82549f0>
+
+```
+Introduction
+[Overall Description](Overall Description.md)
+[External Interface Requirements](External Interface Requirements.md)
+[System Features](System Features.md)
+[Other Non-Functional Requirements](Other Non-Functional Requirements.md)
+[Other Requirements](Other Requirements.md)
+Appendix A: Glossary
+[Appendix B: Analysis Models](Appendixes/Analysis Models.md)
+[Appendix C: To Be Determined List](Appendixes/To Be Determined List.md)
+```
